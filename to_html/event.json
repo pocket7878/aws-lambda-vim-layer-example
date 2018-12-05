@@ -1,0 +1,5 @@
+{
+  "filetype": "c",
+  "colorscheme": "blue",
+  "content": "#include <stdio.h>\n\nint main(int argc, char **argv) \{\n\tprintf(\"Hello, world\\n\");\n\treturn 0;\n}"
+}
