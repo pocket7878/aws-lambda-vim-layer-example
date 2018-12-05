@@ -8,3 +8,7 @@ Contains single `handler.vim` file.
 
 Contains single `handle.vim` and `vim/bundle` directiroy.
 `vim/bundle/autolaod/test.vim` contains `function test#TestAutoload()`
+
+## to_html
+
+Use vim `:TOhtml` command and return generated HTML contents.
