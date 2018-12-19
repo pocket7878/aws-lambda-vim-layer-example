@@ -1,6 +1,6 @@
 function! Method(event, context)
   let content = a:event.content
-  enew
+  enew!
   put =content
   1delete _
   execute 'syntax on'
@@ -10,5 +10,6 @@ function! Method(event, context)
   execute bufwinnr(bufnr('Untitled.xhtml'))'.wincmd w'
   let line_ending = "\n"
   let text = join(getline(1, '$'), line_ending).line_ending
+  q!
   return text
 endfunction
